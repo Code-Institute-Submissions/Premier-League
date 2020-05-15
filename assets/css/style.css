@@ -1,0 +1,16 @@
+/*-----------------------------------------------------Heading*/
+
+header {
+    margin: 0;
+}
+
+.logo {
+    background: url("../images/premier.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 500px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
