@@ -1,3 +1,9 @@
+/*-----------------------------------------------------colours*/
+li {
+    background-color: #0582CA;
+    margin: 0;
+}
+
 /*-----------------------------------------------------Heading*/
 
 header {
@@ -13,4 +19,55 @@ header {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+}
+
+#nav {
+    margin: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding: 15px;
+    display: block;
+    color: white;
+    font-size: 30px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.hvr-bounce-to-bottom:before {
+    background-color: blue;
 }
