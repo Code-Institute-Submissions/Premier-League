@@ -45,7 +45,17 @@
 
 </header>
 
-<section>
+<section class="container-fluid">
+
+    <div class="row no-gutters">
+
+        <div class="col-xs-12 col-sm-12 col-md-8 no gutters">
+                   <h1 class="map-title">Premier League Stadium's Location's<br><p class="bracket-text">(Click On Team Crest For Stadium Information)</p></h1>
+     
+            <div id="map"></div> 
+        </div>
+
+    </div>           
 
 </section>
 
@@ -66,6 +76,11 @@
       </div>
 
 </footer>
+
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrm69PmHveKtF8JaccBS0rQOM6SbtwoZ4&callback=initMap">
+</script> 
+<script src="assets/js/maps.js"></script>
    
 </body>
 </html>
