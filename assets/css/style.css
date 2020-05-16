@@ -71,3 +71,20 @@ header {
 .hvr-bounce-to-bottom:before {
     background-color: blue;
 }
+
+.hvr-bounce-to-top:before {
+    background-color: blue;
+}
+
+/*-----------------------------------------------------footer*/
+
+footer {
+    margin: 0;
+    background-color: #0582CA;
+    color: red;
+    min-height: 120px;
+}
+
+.hvr-bounce-to-top:before {
+    background-color: blue;
+}
