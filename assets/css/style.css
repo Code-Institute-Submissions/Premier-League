@@ -88,3 +88,12 @@ footer {
 .hvr-bounce-to-top:before {
     background-color: blue;
 }
+
+/*-----------------------------------------------------Special paddings/margins/text*/
+
+div#map {
+    min-height: 700px;
+    min-width: "66.66%";
+    background-size: 100%;
+    margin: 0;
+}
