@@ -15,7 +15,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    min-height: 500px;
+    min-height: 600px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -117,3 +117,10 @@ div#map {
     color: white;
     padding: 10px;
 }
+
+.content-table {
+    text-align: center;
+    min-width: 33.33%;
+    width: 100%;
+    min-height: 700px;
+    }
