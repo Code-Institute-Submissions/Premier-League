@@ -25,11 +25,11 @@
             <div class="col">   
                 <ul id="nav" class="list-inline menucontainer">
                    <li class="col-6 col-sm-3 list-inline-item menuitem">
-                         <a href="#" class="hvr-bounce-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+                         <a href="index.html" class="hvr-bounce-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                    </li>  
 
                    <li class="col-6 col-sm-3 list-inline-item menuitem">
-                         <a href="#" class="hvr-bounce-to-bottom"><i class="fas fa-futbol" aria-hidden="true"></i><span>News</span></a>
+                         <a href="news.html" class="hvr-bounce-to-bottom"><i class="fas fa-futbol" aria-hidden="true"></i><span>News</span></a>
                    </li> 
 
                    <li class="col-6 col-sm-3 list-inline-item menuitem">
@@ -37,32 +37,43 @@
                    </li>
 
                    <li class="col-6 col-sm-3 list-inline-item menuitem">  
-                         <a href="#" class="hvr-bounce-to-bottom"><i class="fa fa-history" aria-hidden="true"></i><span>History</span></a>
+                         <a href="history.html" class="hvr-bounce-to-bottom"><i class="fa fa-history" aria-hidden="true"></i><span>History</span></a>
                    </li>
                 </ul>
             </div> 
         </div> 
 
-</header>
+</header>  
 
 <section class="container-fluid">
 
     <div class="row no-gutters">
 
-        <div class="col-xs-12 col-sm-12 col-md-8 no gutters">
-                   <h1 class="map-title">Premier League Stadium's Location's<br><p class="bracket-text">(Click On Team Crest For Stadium Information)</p></h1>
-     
-            <div id="map"></div> 
+        
+
+        <div style="background: url(assets/images/Anfeild.jpg); background-size: 100% 100% ;" class="col">
+           <div><h1 class="teams-title ">Premier League Tickets<br>
+           <p class="bracket-text">(Email For Enquiries)</p></h1></div>
+
+        <div class="center-form email">
+                <form onsubmit="return sendMail(this);">
+                    <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                    <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                    <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Team And Date Of Match Rquired?" required></textarea>
+                    <button type="submit" class="btn btn-secondary center-block">Send Ticket Enquiry</button>
+                </form>
         </div>
 
-    </div>           
+
+        </div>
+    </div>             
 
 </section>
 
-<footer class="container-fluid">  
+<footer class="container-fluid">    
 
       <div class="row"> 
-        <div class="col-sm-4 list-inline-item menuitem">
+        <div class="col-sm-4 list-inline-item menuitem"> 
             <a target="_blank" href="#" class="hvr-bounce-to-top"><i class="fa fa-facebook  "></i><span>PL Facebook</span></a>
         </div>
         
@@ -77,10 +88,5 @@
 
 </footer>
 
-<script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrm69PmHveKtF8JaccBS0rQOM6SbtwoZ4&callback=initMap">
-</script> 
-<script src="assets/js/maps.js"></script>
-   
 </body>
 </html>
