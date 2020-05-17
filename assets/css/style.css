@@ -124,3 +124,12 @@ div#map {
     width: 100%;
     min-height: 700px;
     }
+
+.container-fluid {
+    padding: 0;
+    }
+
+section {
+    margin: 0;
+    padding: 0;
+}
