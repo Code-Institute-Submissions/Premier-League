@@ -109,3 +109,11 @@ div#map {
     font-size: 14px;
     padding-top: 5px;
 }
+
+.teams-title {
+    text-align: center;
+    background-color: #FF006E;
+    font-size: 40px;
+    color: white;
+    padding: 10px;
+}
