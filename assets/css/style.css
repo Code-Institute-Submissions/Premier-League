@@ -89,10 +89,23 @@ footer {
     background-color: blue;
 }
 
-
+/*-----------------------------------------------------Special paddings/margins/text*/
 div#map {
     min-height: 700px;
     min-width: "66.66%";
     background-size: 100%;
     margin: 0;
+}
+
+.map-title {
+    text-align: center;
+    background-color: #03045e;
+    font-size: 40px;
+    color: white;
+    padding: 10px;
+}
+
+.bracket-text {
+    font-size: 14px;
+    padding-top: 5px;
 }
