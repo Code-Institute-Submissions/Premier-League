@@ -134,7 +134,7 @@ section {
     padding: 0;
 }
 
-h1,h2,h3,h4,h5 {
+h1,h2,h3,h4,h5, p {
     margin: 0;
 }
 
@@ -144,3 +144,13 @@ h1,h2,h3,h4,h5 {
     min-width: 400px;
 }
 
+.history-text {
+    padding: 50px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.champ-colour {
+    background-color: #03045e;
+}
