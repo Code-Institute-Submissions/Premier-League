@@ -58,19 +58,28 @@ STEP 8: i located all the relivant links to the teams official websites .
 
 STEP 9: Finally I picked the API'S that i wanted to use.
 
+Features:
+
+Nav Bar: My Nar bar has 4 links to Home, News, Tickets and History.
+I added the font awesome class of hvr-bounce-to-bottom so that you can clearly see which link you are on.
+The reason i used hvr-bounce-to-bottom was because it looks like a bouncing football.(On every page)
+
+Footer:  I added 3 link to the Premier League Facebook, Twitter and Youtube in my footer and used the font awesome 
+class hvr-bounce-to-top also because its clear to see.(On every page)
+
+Google Map: On my home page i used the Google maps API to display the 20 teams in the Premier league on a map of England.
+When a user clicks on a team crest an info window will pop up with that teams stadium infomatiom.
+
+Table on the Home page: I added a table to display the teams of the Premier League and made the crests a link to that 
+team official website.
+
+Email on the Tickets Page: I put an email form for users to enquire about tickets for matchs.
+
+Table on the History page: I added another table on the History page to display the winners of the Premier League through the years.
+I made the crests into links to information and stats of that years season.
 
 
 
-UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
 Existing Features
 Feature 1 - allows users X to achieve Y, by having them fill out Z
