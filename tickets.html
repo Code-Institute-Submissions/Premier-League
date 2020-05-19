@@ -8,8 +8,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/287ee389a0.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+    <script type="text/javascript">
+     (function(){
+      emailjs.init("user_PZFTFdQyiNL4DRM4xmaTy");
+       })();
+       </script>
+    <title>Premier League</title>
 </head>
 <body>
 
@@ -29,7 +35,7 @@
                    </li>  
 
                    <li class="col-6 col-sm-3 list-inline-item menuitem">
-                         <a href="news.html" class="hvr-bounce-to-bottom"><i class="fas fa-futbol" aria-hidden="true"></i><span>News</span></a>
+                         <a href="news.html" class="hvr-bounce-to-bottom"><i class="fas fa-futbol" aria-hidden="true"></i><span>Table</span></a>
                    </li> 
 
                    <li class="col-6 col-sm-3 list-inline-item menuitem">
@@ -62,11 +68,11 @@
                     <textarea rows="3" name="matchticket" class="form-control" id="matchticket" placeholder="Team And Date Of Match Rquired?" required></textarea>
                     <button type="submit" class="btn btn-secondary center-block">Send Ticket Enquiry</button>
                 </form>
-        </div>
+        </div> 
 
 
         </div>
-    </div>             
+    </div>              
 
 </section>
 
@@ -88,13 +94,7 @@
 
 </footer>
 
-<script src="https://kit.fontawesome.com/287ee389a0.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init("user_PZFTFdQyiNL4DRM4xmaTy");
-   })();
-</script>
+
 <script src="assets/js/sendEmail.js"></script>
 </body>
 </html>

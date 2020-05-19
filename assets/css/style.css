@@ -159,3 +159,13 @@ h1,h2,h3,h4,h5, p {
     color: white;
 
 }
+
+.table {
+    background: url("../images/table.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 700px;
+    padding: 0;
+    margin: 0;
+}
