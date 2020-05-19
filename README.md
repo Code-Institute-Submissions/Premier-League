@@ -11,14 +11,14 @@ I asked one simple Question. Do you find it easy to locate information about the
 
 *Name:* Philip O'Reilly *Age:* 71
 *Answer:* No
-Quote: "The Premier League website has way too much going on and i find it very confusing and time consuming"
+*Quote:* >"The Premier League website has way too much going on and i find it very confusing and time consuming"
 
-Name: Johnny O'Reilly Age: 88
-Answer: "On what line"
+*Name:* Johnny O'Reilly *Age:* 88
+*Answer:* >"On what line"
 
-Name: Lucas O'Reilly Age: 8
-Answer: No
-Quote: "Every time i go on to Premier League.com i clicked on something by accident and then i go to a different site"
+*Name:* Lucas O'Reilly *Age:* 8
+*Answer:* No
+*Quote:* >"Every time i go on to Premier League.com i clicked on something by accident and then i go to a different site"
 
 **STEP 2:** I then made a wireframe of my planned site. After alot of planning and alot of  wireframes i finally create a 
 wireframe that i was happy with (with the help of my potential users) 
@@ -39,14 +39,14 @@ A Quote from my father: "The Premier League website has way too much going on an
 
 **STEP 4:** I went back to my potential users and asked them what informatiom they want to find on the Premier League?
 
-Name: Philip O'Reilly Age: 71
-Answer: "To find the clubs official website easily because their is so many different Liverpool sites"
+*Name:* Philip O'Reilly *Age:* 71
+*Answer:* >"To find the clubs official website easily because their is so many different Liverpool sites"
 
-Name: Johnny O'Reilly Age: 87
-Answer: "History of the Premier League"
+*Name:* Johnny O'Reilly *Age:* 87
+*Answer:* >"History of the Premier League"
 
-Name: Lucas O'Reilly Age: 8
-Answer: " What teams are in it and where are they from" 
+*Name:* Lucas O'Reilly *Age:* 8
+*Answer:* >" What teams are in it and where are they from" 
 
 **STEP 5:** After the answer giving from my potential users i picked my features that would accmmodate their needs.
 
@@ -82,52 +82,37 @@ I made the crests into links to information and stats of that years season.
 to render stats correctly due to the API key. I will try to do this in the future with a different sports API
 
 #Technologies Used:
- , provide its name, a link to its official site and a short sentence of why it was used.
 
- GitHub/GitPod: I used these to built my website and host it.
+ **GitHub/GitPod:** I used these to built my website and host it.
  Within GitPod and GitHub i used HTML, CSS and JavaScript.
 
- HTML: For the stucture of my pages
- CSS: For my Styling
- JavaScript: For my Map,Email and APIS
-
+ *HTML:* For the stucture of my pages
+ *CSS:* For my Styling
+ *JavaScript:* For my Map,Email and APIS
  Link:[GitHub](http://github.com)
 
- Balsamiq cloud: I used to build my wireframes
+ **Balsamiq cloud:** I used to build my wireframes
  link:[Balsamiq cloud](https://balsamiq.com)
 
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+**Testing:**
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+**Deployment:**
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+#Credits:
 
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+**Content:**
+I got the text in my History paragraph from the History page on Premier League.com
+Link: [Premier League.com](https://www.premierleague.com/history)
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+**Media:**
+I got my 20 images for my team crests off Premier League.com . They are on the home at the top
+Link: [Premier League.com](https://www.premierleague.com)
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+I got the rest off my images from google
 
-Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+**Acknowledgements:**
+I received inspiration for my nav bar and email  from the lessons in my course
+I received inspiration for my google map JavaScript function from multiple tutorials and videos across the internet.
