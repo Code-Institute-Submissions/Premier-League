@@ -15,6 +15,3 @@ function sendMail(contactForm) {
     return false; 
 }
 
-function myFunction() {
-  location.replace("tickets.html")
-}
